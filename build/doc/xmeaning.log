@@ -1,0 +1,1142 @@
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  18 DEC 2025 00:08
+ system commands enabled.
+**\input xmeaning.dtx
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended collection.
+luaotfload | conf : Root cache directory is "C:/texlive/2025/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-resolved path "c:/texlive/2025/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/texlive/2025/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'.
+(./xmeaning.dtx (c:/texlive/2025/texmf-dist/tex/latex/l3kernel/l3doc.cls
+(c:/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count273
+\calc@Bcount=\count274
+\calc@Adimen=\dimen147
+\calc@Bdimen=\dimen148
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count275
+\calc@Cskip=\skip51
+)
+Document Class: l3doc 2025-11-14 L3 Experimental documentation class
+\l__codedoc_output_coffin=\box53
+\l__codedoc_functions_coffin=\box54
+\l__codedoc_descr_coffin=\box55
+\l__codedoc_syntax_coffin=\box56
+\g__codedoc_syntax_box=\box57
+\l__codedoc_trial_width_dim=\dimen149
+\l__codedoc_nested_macro_int=\count276
+\l__codedoc_tmpa_int=\count277
+\l__codedoc_tmpa_seq=\count278
+\l__codedoc_macro_box=\box58
+\l__codedoc_macro_index_box=\box59
+\l__codedoc_macro_int=\count279
+(c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(c:/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/texlive/2025/texmf-var/luat
+ex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count280
+\c@section=\count281
+\c@subsection=\count282
+\c@subsubsection=\count283
+\c@paragraph=\count284
+\c@subparagraph=\count285
+\c@figure=\count286
+\c@table=\count287
+\abovecaptionskip=\skip52
+\belowcaptionskip=\skip53
+\bibindent=\dimen150
+)
+(c:/texlive/2025/texmf-dist/tex/latex/base/doc.sty
+Package: doc 2024/12/25 v3.0q Standard LaTeX documentation package V3 (FMi)
+\c@StandardModuleDepth=\count288
+\guard@level=\count289
+\MacrocodeTopsep=\skip54
+\MacroIndent=\dimen151
+\macro@cnt=\count290
+\MacroTopsep=\skip55
+\IndexMin=\dimen152
+\c@IndexColumns=\count291
+
+(c:/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
+\c@tracingmulticols=\count292
+\mult@box=\box60
+\multicol@leftmargin=\dimen153
+\c@unbalance=\count293
+\c@collectmore=\count294
+\doublecol@number=\count295
+\multicoltolerance=\count296
+\multicolpretolerance=\count297
+\full@width=\dimen154
+\page@free=\dimen155
+\premulticols=\dimen156
+\postmulticols=\dimen157
+\multicolsep=\skip56
+\multicolbaselineskip=\skip57
+\partial@page=\box61
+\last@line=\box62
+\mc@boxedresult=\box63
+\maxbalancingoverflow=\dimen158
+\mult@rightbox=\box64
+\mult@grightbox=\box65
+\mult@firstbox=\box66
+\mult@gfirstbox=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\c@minrows=\count298
+\c@columnbadness=\count299
+\c@finalcolumnbadness=\count300
+\last@try=\dimen159
+\multicolovershoot=\dimen160
+\multicolundershoot=\dimen161
+\mult@nat@firstbox=\box104
+\colbreak@box=\box105
+\mc@col@check@num=\count301
+\g__mc_curr_col_int=\count302
+)
+\GlossaryMin=\dimen162
+\c@GlossaryColumns=\count303
+\check@sum=\count304
+\bslash@cnt=\count305
+\wrong@table=\toks17
+\c@CodelineNo=\count306
+\@temptokenb=\toks18
+)
+(c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen163
+\ar@mcellbox=\box106
+\extrarowheight=\dimen164
+\NC@list=\toks19
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box107
+)
+(c:/texlive/2025/texmf-dist/tex/generic/alphalph/alphalph.sty
+Package: alphalph 2019/12/09 v2.6 Convert numbers to letters (HO)
+
+(c:/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+))
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen165
+))
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen166
+)
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count307
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count308
+\leftroot@=\count309
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count310
+\DOTSCASE@=\count311
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box108
+\strutbox@=\box109
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen167
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count312
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count313
+\dotsspace@=\muskip17
+\c@parentequation=\count314
+\dspbrk@lvl=\count315
+\tag@help=\toks21
+\row@=\count316
+\column@=\count317
+\maxfields@=\count318
+\andhelp@=\toks22
+\eqnshift@=\dimen168
+\alignsep@=\dimen169
+\tagshift@=\dimen170
+\tagwidth@=\dimen171
+\totwidth@=\dimen172
+\lineht@=\dimen173
+\@envbody=\toks23
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen174
+\lightrulewidth=\dimen175
+\cmidrulewidth=\dimen176
+\belowrulesep=\dimen177
+\belowbottomsep=\dimen178
+\aboverulesep=\dimen179
+\abovetopsep=\dimen180
+\cmidrulesep=\dimen181
+\cmidrulekern=\dimen182
+\defaultaddspace=\dimen183
+\@cmidla=\count319
+\@cmidlb=\count320
+\@aboverulesep=\dimen184
+\@belowrulesep=\dimen185
+\@thisruleclass=\count321
+\@lastruleclass=\count322
+\@thisrulewidth=\dimen186
+)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: luatex.def on input line 149.
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2025/09/29 v1.2f Graphics/color driver for luatex
+)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(c:/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+\everycr=\toks25
+\minrowclearance=\skip63
+\rownum=\count323
+)
+(c:/texlive/2025/texmf-dist/tex/generic/hologo/hologo.sty
+Package: hologo 2025-11-11 v1.16 A logo collection with bookmark support (HO)
+
+(c:/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks26
+)
+(c:/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks27
+))
+Package hologo Info: Using driver `pdftex'.
+)
+(c:/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip64
+\enit@outerparindent=\dimen187
+\enit@toks=\toks28
+\enit@inbox=\box110
+\enit@count@id=\count324
+\enitdp@description=\count325
+)
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(c:/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(c:/texlive/2025/texmf-dist/tex/latex/tools/trace.sty
+Package: trace 2021/04/18 v1.1f trace LaTeX code
+)
+(c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+
+(c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count326
+)
+\csq@reset=\count327
+\csq@gtype=\count328
+\csq@glevel=\count329
+\csq@qlevel=\count330
+\csq@maxlvl=\count331
+\csq@tshold=\count332
+\csq@ltx@everypar=\toks29
+
+(c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(c:/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2025/07/28 4.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count333
+\FV@InFile=\read2
+\FV@TabBox=\box111
+\c@FancyVerbLine=\count334
+\FV@StepNumber=\count335
+\FV@OutFile=\write3
+)
+(c:/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty
+Package: underscore 2006/09/13
+LaTeX Info: Redefining \_ on input line 42.
+)
+==> First Aid for underscore.sty applied!
+(c:/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty
+Package: underscore-ltx 2023/09/20 LaTeX firstaid to make underscore protected 
+
+)
+(c:/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks30
+\verbatim@line=\toks31
+\verbatim@in@stream=\read3
+)
+(c:/texlive/2025/texmf-dist/tex/latex/hypdoc/hypdoc.sty
+Package: hypdoc 2023-10-26 v1.19 Hyper extensions for doc.sty (HO)
+
+(c:/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(c:/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(c:/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count336
+)
+(c:/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen188
+\Hy@linkcounter=\count337
+\Hy@pagecounter=\count338
+
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count339
+
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `hyperindex' set `false' on input line 4066.
+Package hyperref Info: Option `pdfusetitle' set `true' on input line 4066.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index OFF on input line 4205.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count340
+
+(c:/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen189
+
+(c:/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count341
+\Field@Width=\dimen190
+\Fld@charsize=\dimen191
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index OFF on input line 6088.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count342
+\c@Item=\count343
+\c@Hfootnote=\count344
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2025-07-12 v7.01o Hyperref driver for luaTeX
+\Fld@listcount=\count345
+\c@bookmark@seq@number=\count346
+
+(c:/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(c:/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip65
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 75.
+Package hyperref Info: Option `plainpages' set `false' on input line 75.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 75.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 75.
+\c@HD@unique=\count347
+\c@HD@hypercount=\count348
+\HD@helplength=\skip66
+)
+\l__codedoc_syntax_dim=\dimen192
+\@glossaryfile=\write4
+
+\openout4 = xmeaning.glo
+
+Writing glossary file xmeaning.glo 
+\@indexfile=\write5
+
+\openout5 = xmeaning.idx
+Writing index file xmeaning.idx
+) (c:/texlive/texmf-local/tex/latex/local/GUTenberg/intexgral.sty
+(c:/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-11-14 L3 programming layer (loader) 
+
+(c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count349
+Inserting `l3color' in `luaotfload.parse_color'.))
+Package: intexgral 2025-09-13 v2.0.1 A LaTeX package for typesetting integrals.
+
+
+(c:/texlive/2025/texmf-dist/tex/latex/derivative/derivative.sty
+(c:/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
+)
+Package: derivative 2024/02/08 v1.4 Nice and easy derivatives and differentials
+ for LaTeX
+\l__deriv_gcd_counter_int=\count350
+\l__deriv_vmo_int=\count351
+\l__deriv_var_count_int=\count352
+\l__deriv_tmpa_int=\count353
+\l__deriv_tmpb_int=\count354
+\l__deriv_seq_pos_int=\count355
+\l__deriv_sort_max_int=\count356
+)
+\l__intexgral_pkg_inline_symbol_muskip=\muskip19
+\l__intexgral_pkg_integral_sequence_int=\count357
+\g__intexgral_pkg_integral_number_int=\count358
+)
+(c:/texlive/2025/texmf-dist/tex/latex/codedescribe/codedescribe.sty
+(c:/texlive/2025/texmf-dist/tex/latex/pkginfograb/pkginfograb.sty
+Package: pkginfograb 2025/11/16 v1.2 Collecting~ package's~ info~ in~ a~ regula
+r~ way
+)
+Package: codedescribe 2025/11/26 v1.19 LaTeX Code Description/Documentation
+
+(c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+LaTeX Info: Redefining \color on input line 762.
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(c:/texlive/2025/texmf-dist/tex/latex/xpeekahead/xpeekahead.sty
+Package: xpeekahead 2025/11/01 v1.3a A simple peek ahead set up
+)
+(c:/texlive/2025/texmf-dist/tex/latex/codedescribe/codecmm.sty
+Package: codecmm 2025/11/26 v1.19 codedescribe/list common commands
+\l__codecmm_null_skip=\skip67
+\l__codecmm_tiny_skip=\skip68
+\l__codecmm_small_skip=\skip69
+\l__codecmm_mid_skip=\skip70
+\l__codecmm_large_skip=\skip71
+\l__codecmm_larger_skip=\skip72
+\l__codecmm_largeline_skip=\skip73
+\l__codecmm_neg_skip=\skip74
+\l__codecmm_bigneg_skip=\skip75
+\l__codecmm_min_skip=\skip76
+\l__codecmm_tinyskip_dim=\dimen193
+\l__codecmm_nullskip_dim=\dimen194
+\l__codecmm_smallskip_dim=\dimen195
+\l__codecmm_midskip_dim=\dimen196
+\l__codecmm_largeskip_dim=\dimen197
+\l__codecmm_largerskip_dim=\dimen198
+\l__codecmm_baselineskip_dim=\dimen199
+\l__codecmm_largelineskip_dim=\dimen256
+\l__codecmm_coffinskip_dim=\dimen257
+\l__codecmm_midlineskip_dim=\dimen258
+\l__codecmm_textcolwidth_dim=\dimen259
+)
+\l__codedesc_tmpa_coffin=\box112
+\l__codedesc_tmpb_coffin=\box113
+
+(c:/texlive/2025/texmf-dist/tex/latex/codedescribe/codedescsets.sty
+Package: codedescsets 2025/11/26 v1.19 codedescribe label sets
+)
+(c:/texlive/2025/texmf-dist/tex/latex/codedescribe/codelisting.sty
+Package: codelisting 2025/11/26 v1.19 LaTeX Code Listing
+
+(c:/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count359
+\lst@gtempboxa=\box114
+\lst@token=\toks32
+\lst@length=\count360
+\lst@currlwidth=\dimen260
+\lst@column=\count361
+\lst@pos=\count362
+\lst@lostspace=\dimen261
+\lst@width=\dimen262
+\lst@newlines=\count363
+\lst@lineno=\count364
+\lst@maxwidth=\dimen263
+
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count365
+\lst@skipnumbers=\count366
+\lst@framebox=\box115
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(c:/texlive/2025/texmf-dist/tex/latex/scontents/scontents.sty
+Package: scontents 2025-11-20 v2.6 Stores LaTeX contents in memory or files
+
+(c:/texlive/2025/texmf-dist/tex/generic/scontents/scontents-code.tex
+\l__scontents_tab_width_int=\count367
+\l__scontents_nesting_env_int=\count368
+\l__scontents_nesting_aux_int=\count369
+\l__scontents_foreach_stop_int=\count370
+\l__scontents_save_sf_int=\count371
+\l__scontents_save_skip=\skip77
+\l__scontents_foreach_start_int=\count372
+\l__scontents_foreach_step_int=\count373
+))
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+\l__codelist_demo_parindent_dim=\dimen264
+\l__codelist_org_parindent_dim=\dimen265
+
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+\__codelist_code_coffin=\box116
+\__codelist_code_label_coffin=\box117
+\__codelist_demo_coffin=\box118
+\__codelist_demo_label_coffin=\box119
+\__codelist_code_demo_coffin=\box120
+\l__codelist_width_dim=\dimen266
+\l__codelist_offset_dim=\dimen267
+\l__codelist_code_height_dim=\dimen268
+\l__codelist_demo_height_dim=\dimen269
+)
+\l__codedesc_margin_coffin=\box121
+\l__codedesc_text_coffin=\box122
+\l__codedesc_syntax_coffin=\box123
+\l__codedesc_syntax_wd_dim=\dimen270
+\l__codedesc_margin_wd_dim=\dimen271
+\l__codedesc_describe_coffin=\box124
+\l__codedesc_describelabel_wd_dim=\dimen272
+\l__codedesc_describelist_wd_dim=\dimen273
+\__codedesc_paradvance_dim=\dimen274
+\l__codedesc_tmpa_dim=\dimen275
+\l__codedesc_tmpb_dim=\dimen276
+\l__codedesc_tsremark_coffin=\box125
+\g__codedesc_footnote_int=\count374
+)
+(c:/texlive/texmf-local/tex/latex/package/xmeaning/build/local/xmeaning.sty
+Package: xmeaning 2025-12-18 v0.1.0 Enhanced implementation of the \meaning\ pr
+imitive.
+\l__xmeaning_pkg_char_math_fam_int=\count375
+\l__xmeaning_pkg_char_math_slot_int=\count376
+\l__xmeaning_pkg_small_variant_family_int=\count377
+\l__xmeaning_pkg_small_variant_position_int=\count378
+\l__xmeaning_pkg_big_variant_family_int=\count379
+\l__xmeaning_pkg_big_variant_position_int=\count380
+\l__xmeaning_pkg_meaning_skip=\skip78
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+
+(./xmeaning.aux)
+\openout1 = xmeaning.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+
+(c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count381
+\scratchdimen=\dimen277
+\scratchbox=\box126
+\nofMPsegments=\count382
+\nofMParguments=\count383
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count384
+\MPscratchDim=\dimen278
+\MPnumerator=\count385
+\makeMPintoPDFobject=\count386
+\everyMPtoPDFconversion=\toks34
+)
+Package hyperref Info: Link coloring ON on input line 37.
+ (./xmeaning.out) (./xmeaning.out)
+\@outlinefile=\write6
+
+\openout6 = xmeaning.out
+ (./xmeaning.hd)
+\HD@savedest@out=\write7
+
+\openout7 = xmeaning.hd
+Package doc Info: Made " a short reference for \verb on input line 37.
+Package doc Info: Made | a short reference for \verb on input line 37.
+\c@lstlisting=\count387
+ (./xmeaning.dtx
+LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
+
+
+(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
+
+
+(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (18.0pt too wide) in paragraph at lines 77--79
+[]| [] 
+ []
+
+[1
+
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+> \l__scontents_processed_body_lines_tl=%   \xmeaning o
+% %^^Ascheol%.
+> \l__scontents_typestored_arg_tl=%   \xmeaning o
+% .
+
+Overfull \hbox (105.0pt too wide) in paragraph at lines 115--115
+[][] 
+ []
+
+> \l__scontents_processed_body_lines_tl=%   \xmeaning{\%, \gamma}
+% %^^Ascheol%.
+> \l__scontents_typestored_arg_tl=%   \xmeaning{\%, \gamma}
+% .
+[2]
+Overfull \hbox (120.75pt too wide) in paragraph at lines 125--125
+[][] 
+ []
+
+> \l__scontents_processed_body_lines_tl=%   \newtoks\temptoks
+%   \temptoks={Token register}
+%   \xmeaning\temptoks
+% %^^Ascheol%.
+> \l__scontents_typestored_arg_tl=%   \newtoks\temptoks
+%   \temptoks={Token register}
+%   \xmeaning\temptoks
+% .
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <8> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1.
+\temptoks=\toks35
+
+Overfull \hbox (84.0pt too wide) in paragraph at lines 137--137
+[][] 
+ []
+
+> \l__scontents_processed_body_lines_tl=%   \ExplSyntaxOn
+%   \tl_new:N \l_my_token_tl
+%   \tl_set:Nn \l_my_token_tl { Token~data~type }
+%   \xmeaning\l_my_token_tl
+%   \ExplSyntaxOff
+% %^^Ascheol%.
+> \l__scontents_typestored_arg_tl=%   \ExplSyntaxOn
+%   \tl_new:N \l_my_token_tl
+%   \tl_set:Nn \l_my_token_tl { Token~data~type }
+%   \xmeaning\l_my_token_tl
+%   \ExplSyntaxOff
+% .
+
+Overfull \hbox (63.0pt too wide) in paragraph at lines 151--151
+[][] 
+ []
+
+[3]
+> \l__scontents_processed_body_lines_tl=%   \xmeaning{\kern, \newcommand}
+% %^^Ascheol%.
+> \l__scontents_typestored_arg_tl=%   \xmeaning{\kern, \newcommand}
+% .
+
+Overfull \hbox (99.75pt too wide) in paragraph at lines 188--188
+[][] 
+ []
+
+[4]
+> \l__scontents_processed_body_lines_tl=%   \xmeaning*{\newcommand, \integral}
+% %^^Ascheol%.
+> \l__scontents_typestored_arg_tl=%   \xmeaning*{\newcommand, \integral}
+% .
+
+Overfull \hbox (99.75pt too wide) in paragraph at lines 211--211
+[][] 
+ []
+
+[5]
+
+Package l3doc Warning: A control sequence of the form
+(l3doc)                '...__xmeaning_tl_map:nw' was used. It should only be
+(l3doc)                used in the module 'xmeaning', not in 'xmeaning_pkg'.
+
+
+Package l3doc Warning: A control sequence of the form
+(l3doc)                '...__xmeaning_tl_map:nw' was used. It should only be
+(l3doc)                used in the module 'xmeaning', not in 'xmeaning_pkg'.
+
+
+Package l3doc Warning: A control sequence of the form '...__\l_tmpa_tl' was
+(l3doc)                used. It should only be used in the module '\l', not in
+(l3doc)                'xmeaning_pkg'.
+
+
+Overfull \hbox (7.6445pt too wide) in paragraph at lines 675--675
+ [][]    \TU/lmtt/m/n/9 description   = {Enhanced implementation of the \string\
+meaning\ primitive.} 
+ []
+
+[6]
+Overfull \hbox (130.49466pt too wide) in paragraph at lines 675--675
+ [][]  \TU/lmtt/m/n/9 \__xmeaning_pkg_tex_halign:n { \tex_hfil:D##&\c_space_tl=\
+c_space_tl\vbox_top:n{\raggedright##}\tex_cr:D 
+ []
+
+[7]
+Overfull \hbox (206.09476pt too wide) in paragraph at lines 675--675
+ [][]        \TU/lmtt/m/n/9 Uppercase~code & \char_value_uccode:n { `#1 }~(\char
+_generate:nn { \char_value_uccode:n { `#1 } } { 11 })\tex_cr:D 
+ []
+
+
+Overfull \hbox (206.09476pt too wide) in paragraph at lines 675--675
+ [][]        \TU/lmtt/m/n/9 Lowercase~code & \char_value_lccode:n { `#1 }~(\char
+_generate:nn { \char_value_lccode:n { `#1 } } { 11 })\tex_cr:D 
+ []
+
+
+Overfull \hbox (87.9696pt too wide) in paragraph at lines 675--675
+ [][]          \TU/lmtt/m/n/9 { \exp_args:Ne \tl_item:nn { \int_to_hex:e { \char
+_value_mathcode:n { `#1 } } } { 2 } } 
+ []
+
+[8]
+Overfull \hbox (69.06958pt too wide) in paragraph at lines 675--675
+ [][]        \TU/lmtt/m/n/9 Small~variant~family:~\int_use:N \l__xmeaning_pkg_sm
+all_variant_family_int \tex_par:D 
+ []
+
+
+Overfull \hbox (87.9696pt too wide) in paragraph at lines 675--675
+ [][]        \TU/lmtt/m/n/9 Small~variant~position:~\int_use:N \l__xmeaning_pkg_
+small_variant_position_int \tex_par:D 
+ []
+
+
+Overfull \hbox (50.16956pt too wide) in paragraph at lines 675--675
+ [][]        \TU/lmtt/m/n/9 Big~variant~family:~\int_use:N \l__xmeaning_pkg_big_
+variant_family_int \tex_par:D 
+ []
+
+
+Overfull \hbox (17.09451pt too wide) in paragraph at lines 675--675
+ [][]        \TU/lmtt/m/n/9 Big~variant~position:~\int_use:N \l__xmeaning_pkg_bi
+g_variant_position_int 
+ []
+
+
+Overfull \hbox (12.3695pt too wide) in paragraph at lines 675--675
+ [][]  \TU/lmtt/m/n/9 \regex_extract_all:neN { \\([a-z]+)(\d+) } { \cs_meaning:c
+ { #1 } } \l_tmpa_seq 
+ []
+
+
+Overfull \hbox (2.9195pt too wide) in paragraph at lines 675--675
+ [][]      \TU/lmtt/m/n/9 { toks   } { \tl_set:Nn \l__xmeaning_pkg_register_type
+_tl { token     } } 
+ []
+
+[9]
+Overfull \hbox (2.9195pt too wide) in paragraph at lines 675--675
+ [][]      \TU/lmtt/m/n/9 { dimen  } { \tl_set:Nn \l__xmeaning_pkg_register_type
+_tl { dimension } } 
+ []
+
+
+Overfull \hbox (40.71954pt too wide) in paragraph at lines 675--675
+ [][]    \TU/lmtt/m/n/9 { \tl_set:Ne \l__xmeaning_pkg_register_type_tl { \seq_it
+em:Nn \l_tmpa_seq { 2 } } } 
+ []
+
+
+Overfull \hbox (130.49466pt too wide) in paragraph at lines 675--675
+ [][]  \TU/lmtt/m/n/9 \__xmeaning_pkg_tex_halign:n { \tex_hfil:D##&\c_space_tl=\
+c_space_tl\vbox_top:n{\raggedright##}\tex_cr:D 
+ []
+
+
+Overfull \hbox (106.86963pt too wide) in paragraph at lines 675--675
+ [][]    \TU/lmtt/m/n/9 Type & \tl_use:N \l__xmeaning_pkg_register_type_tl\ (no.
+~\seq_item:Nn \l_tmpa_seq { 3 })\tex_cr:D 
+ []
+
+
+Overfull \hbox (130.49466pt too wide) in paragraph at lines 675--675
+ [][]  \TU/lmtt/m/n/9 \__xmeaning_pkg_tex_halign:n { \tex_hfil:D##&\c_space_tl=\
+c_space_tl\vbox_top:n{\raggedright##}\tex_cr:D 
+ []
+
+
+Overfull \hbox (12.3695pt too wide) in paragraph at lines 675--675
+ [][]    \TU/lmtt/m/n/9 Variable & \slshape \str_use:N \c_backslash_str \tl_to_s
+tr:n { #1 } \tex_cr:D 
+ []
+
+[10]
+Overfull \hbox (50.16956pt too wide) in paragraph at lines 675--675
+ [][]    \TU/lmtt/m/n/9 Use & \int_case:nn { \int_eval:n { \tl_count:e { \seq_it
+em:Nn \l_tmpb_seq { 3 } } } } 
+ []
+
+
+Overfull \hbox (59.61957pt too wide) in paragraph at lines 675--675
+ [][]  \TU/lmtt/m/n/9 \regex_extract_all:neN { \\(math)?char"([0-9A-Z]+) } { \cs
+_meaning:c { #1 } } \l_tmpa_seq 
+ []
+
+
+Overfull \hbox (130.49466pt too wide) in paragraph at lines 675--675
+ [][]  \TU/lmtt/m/n/9 \__xmeaning_pkg_tex_halign:n { \tex_hfil:D##&\c_space_tl=\
+c_space_tl\vbox_top:n{\raggedright##}\tex_cr:D 
+ []
+
+
+Overfull \hbox (130.49466pt too wide) in paragraph at lines 675--675
+ [][]  \TU/lmtt/m/n/9 \__xmeaning_pkg_tex_halign:n { \tex_hfil:D##&\c_space_tl=\
+c_space_tl\vbox_top:n{\raggedright##}\tex_cr:D 
+ []
+
+
+Overfull \hbox (64.34457pt too wide) in paragraph at lines 675--675
+ [][]              \TU/lmtt/m/n/9 { :{2}[NnVvcofexTFwD]_unbraced  } { expl3~argu
+ment~specifier~(unbraced~type) } 
+ []
+
+[11]
+Overfull \hbox (21.81952pt too wide) in paragraph at lines 675--675
+ [][]      \TU/lmtt/m/n/9 \regex_extract_all:nnNTF { \A(g|l|c)(_{1,2})\w*_([a-z]
+*) } { #1 } \l_tmpb_seq 
+ []
+
+
+Overfull \hbox (45.44455pt too wide) in paragraph at lines 675--675
+ [][]              \TU/lmtt/m/n/9 { \\(math)?char"([0-9A-Z]+) } { \__xmeaning_pk
+g_chardef_meaning:n { #1 } } 
+ []
+
+
+Overfull \hbox (45.44455pt too wide) in paragraph at lines 675--675
+ [][]        \TU/lmtt/m/n/9 { \exp_args:Ne \__xmeaning_pkg_control_sequence_mean
+ing:n { \cs_to_str:N ##1 } } 
+ []
+
+[12]
+Overfull \hbox (26.54453pt too wide) in paragraph at lines 675--675
+ [][]          \TU/lmtt/m/n/9 \clist_put_right:Ne \l_tmpb_clist { \int_to_Alph:n
+ { ####1 } \l_tmpa_tl, } 
+ []
+
+
+Overfull \hbox (26.54453pt too wide) in paragraph at lines 675--675
+ [][]          \TU/lmtt/m/n/9 \clist_put_right:Ne \l_tmpb_clist { \l_tmpa_tl \in
+t_to_Alph:n { ####1 }, } 
+ []
+
+
+Overfull \hbox (40.71954pt too wide) in paragraph at lines 675--675
+ [][]        \TU/lmtt/m/n/9 { \clist_put_right:Ne \l_tmpb_clist { \l_tmpa_tl @\i
+nt_to_roman:n { ####1 } } } 
+ []
+
+
+Overfull \hbox (73.79459pt too wide) in paragraph at lines 675--675
+ [][]              \TU/lmtt/m/n/9 \exp_args:NV \tl_range:nnV { \l_tmpa_tl } { \i
+nt_eval:n{ ####1+1 } } \l_tmpa_int 
+ []
+
+[13]
+Overfull \hbox (21.81952pt too wide) in paragraph at lines 675--675
+ [][]            \TU/lmtt/m/n/9 { \exp_args:NV \__xmeaning_pkg_xmeaning_replace_
+a_tokens:n \l_tmpa_tl } 
+ []
+
+
+Overfull \hbox (21.81952pt too wide) in paragraph at lines 675--675
+ [][]            \TU/lmtt/m/n/9 { \exp_args:NV \__xmeaning_pkg_xmeaning_replace_
+o_tokens:n \l_tmpa_tl } 
+ []
+
+)
+Package doc Info: Deleted " as a short reference for \verb(*) on input line 39.
+
+Package doc Info: Deleted | as a short reference for \verb(*) on input line 39.
+
+ [14] (./xmeaning.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-14>
+ ***********
+Package rerunfilecheck Info: File `xmeaning.out' has not changed.
+(rerunfilecheck)             Checksum: F6CD78BB0B5B73374E85913EB67B1800;855.
+Package rerunfilecheck Info: File `xmeaning.hd' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 21546 strings out of 476081
+ 125004,1144653 words of node,token memory allocated
+ 1533 words of node memory still in use:
+   17 hlist, 5 vlist, 11 rule, 2 local_par, 6 math, 36 glue, 7 kern, 3 penalty, 
+27 glyph, 48 attribute, 76 glue_spec, 48 attribute_list, 1 write, 14 pdf_colorst
+ack nodes
+   avail lists: 1:2,2:1668,3:2376,4:1669,5:1277,6:119,7:6729,8:11,9:3949,10:23,1
+1:389,12:2
+ 43074 multiletter control sequences out of 65536+600000
+ 93 fonts using 7207735 bytes
+ 89i,12n,110p,862b,2308s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans8-oblique.otf><c:/tex
+live/2025/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf><c:/texlive/20
+25/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf><c:/texlive/2025/texm
+f-dist/fonts/opentype/public/lm/lmmono8-regular.otf><c:/texlive/2025/texmf-dist/
+fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2025/texmf-dist/fonts/
+opentype/public/lm/lmroman7-regular.otf><c:/texlive/2025/texmf-dist/fonts/openty
+pe/public/lm/lmmono10-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/pub
+lic/lm/lmroman10-italic.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm
+/lmroman10-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmro
+man12-bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono9-regu
+lar.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmonoslant10-regul
+ar.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf
+><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf><c:/texl
+ive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2
+025/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf><c:/texlive/2025/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2025/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on xmeaning.pdf (14 pages, 152096 bytes).
+
+PDF statistics: 736 PDF objects out of 1000 (max. 8388607)
+ 659 compressed objects within 7 object streams
+ 502 named destinations out of 1000 (max. 131072)
+ 57 words of extra memory for PDF output out of 10000 (max. 100000000)
+

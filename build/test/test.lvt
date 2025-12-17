@@ -1,0 +1,29 @@
+\input regression-test.tex
+
+\documentclass{article}
+
+\usepackage{xmeaning}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\ExplSyntaxOn
+\tl_new:N \l_my_token_tl
+\tl_set:Nn \l_my_token_tl { bonjour }
+\clist_new:N \l_my_comma_list_clist
+\clist_set:Nn \l_my_comma_list_clist
+  {
+    a,
+    b,
+    c,
+    d
+  }
+\ExplSyntaxOff
+
+\xmeaning{o, \newcommand}
+
+\expandafter\xmeaning\csname l_my_token_tl\endcsname
+\expandafter\xmeaning\csname l_my_comma_list_clist\endcsname
+
+\end{document}
