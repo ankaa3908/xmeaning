@@ -41,9 +41,9 @@
   {
     name          = {xmeaning}  ,
     author        = {Valentin Dao},
-    date          = {2025-12-18},
+    date          = {2026-02-10},
     creation      = {2025-12-18},
-    version       = {v0.1.0}    ,
+    version       = {v0.2.0}    ,
     description   = {Enhanced implementation of the \string\meaning\ primitive.}
   }
 
@@ -135,6 +135,13 @@
     }
   \__xmeaning_pkg_tex_halign:n { \tex_hfil:D##&\c_space_tl=\c_space_tl\vbox_top:n{\raggedright##}\tex_cr:D
     Glyph & \token_to_meaning:N #1\tex_cr:D
+    Dimensions & width:~\tex_the:D\tex_fontcharwd:D\tex_font:D `#1\tex_par:D
+              height:~\tex_the:D\tex_fontcharht:D\tex_font:D `#1\tex_par:D
+    \dim_compare:nNnF { \tex_the:D\tex_fontchardp:D\tex_font:D `#1 } = { 0 pt }
+      { depth:~\tex_the:D\tex_fontchardp:D\tex_font:D `#1\tex_par:D }
+    \dim_compare:nNnF { \tex_the:D\tex_fontcharic:D\tex_font:D `#1 } = { 0 pt }
+      { depth:~\tex_the:D\tex_fontcharic:D\tex_font:D `#1\tex_par:D }
+    \tex_cr:D
     Category~code & \token_to_catcode:N #1\tex_cr:D
     Character~code & \int_use:N \l_tmpa_int\tex_cr:D
     Unicode & \tl_use:N \l__xmeaning_pkg_utf_eight_representation_tl\tex_cr:D

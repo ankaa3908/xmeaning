@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  18 DEC 2025 00:08
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.12.18)  10 FEB 2026 11:50
  system commands enabled.
 **\input xmeaning.dtx
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
@@ -566,7 +566,7 @@ Package: derivative 2024/02/08 v1.4 Nice and easy derivatives and differentials
 Package: pkginfograb 2025/11/16 v1.2 Collecting~ package's~ info~ in~ a~ regula
 r~ way
 )
-Package: codedescribe 2025/11/26 v1.19 LaTeX Code Description/Documentation
+Package: codedescribe 2025/12/17 v1.20 LaTeX Code Description/Documentation
 
 (c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -592,7 +592,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 Package: xpeekahead 2025/11/01 v1.3a A simple peek ahead set up
 )
 (c:/texlive/2025/texmf-dist/tex/latex/codedescribe/codecmm.sty
-Package: codecmm 2025/11/26 v1.19 codedescribe/list common commands
+Package: codecmm 2025/12/17 v1.20 codedescribe/list common commands
 \l__codecmm_null_skip=\skip67
 \l__codecmm_tiny_skip=\skip68
 \l__codecmm_small_skip=\skip69
@@ -603,40 +603,46 @@ Package: codecmm 2025/11/26 v1.19 codedescribe/list common commands
 \l__codecmm_neg_skip=\skip74
 \l__codecmm_bigneg_skip=\skip75
 \l__codecmm_min_skip=\skip76
-\l__codecmm_tinyskip_dim=\dimen193
-\l__codecmm_nullskip_dim=\dimen194
-\l__codecmm_smallskip_dim=\dimen195
-\l__codecmm_midskip_dim=\dimen196
-\l__codecmm_largeskip_dim=\dimen197
-\l__codecmm_largerskip_dim=\dimen198
-\l__codecmm_baselineskip_dim=\dimen199
-\l__codecmm_largelineskip_dim=\dimen256
-\l__codecmm_coffinskip_dim=\dimen257
-\l__codecmm_midlineskip_dim=\dimen258
-\l__codecmm_textcolwidth_dim=\dimen259
+\l__codecmm_verythin_skip=\skip77
+\l__codecmm_thin_skip=\skip78
+\l__codecmm_midthin_skip=\skip79
+\l__codecmm_verytinyskip_dim=\dimen193
+\l__codecmm_tinyskip_dim=\dimen194
+\l__codecmm_nullskip_dim=\dimen195
+\l__codecmm_smallskip_dim=\dimen196
+\l__codecmm_smallerskip_dim=\dimen197
+\l__codecmm_midskip_dim=\dimen198
+\l__codecmm_largeskip_dim=\dimen199
+\l__codecmm_largerskip_dim=\dimen256
+\l__codecmm_baselineskip_dim=\dimen257
+\l__codecmm_largelineskip_dim=\dimen258
+\l__codecmm_coffinskip_dim=\dimen259
+\l__codecmm_marginminsep_dim=\dimen260
+\l__codecmm_midlineskip_dim=\dimen261
+\l__codecmm_textcolwidth_dim=\dimen262
 )
 \l__codedesc_tmpa_coffin=\box112
 \l__codedesc_tmpb_coffin=\box113
 
 (c:/texlive/2025/texmf-dist/tex/latex/codedescribe/codedescsets.sty
-Package: codedescsets 2025/11/26 v1.19 codedescribe label sets
+Package: codedescsets 2025/12/17 v1.20 codedescribe label sets
 )
 (c:/texlive/2025/texmf-dist/tex/latex/codedescribe/codelisting.sty
-Package: codelisting 2025/11/26 v1.19 LaTeX Code Listing
+Package: codelisting 2025/12/17 v1.20 LaTeX Code Listing
 
 (c:/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count359
 \lst@gtempboxa=\box114
 \lst@token=\toks32
 \lst@length=\count360
-\lst@currlwidth=\dimen260
+\lst@currlwidth=\dimen263
 \lst@column=\count361
 \lst@pos=\count362
-\lst@lostspace=\dimen261
-\lst@width=\dimen262
+\lst@lostspace=\dimen264
+\lst@width=\dimen265
 \lst@newlines=\count363
 \lst@lineno=\count364
-\lst@maxwidth=\dimen263
+\lst@maxwidth=\dimen266
 
 (c:/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
@@ -667,7 +673,7 @@ Package: scontents 2025-11-20 v2.6 Stores LaTeX contents in memory or files
 \l__scontents_nesting_aux_int=\count369
 \l__scontents_foreach_stop_int=\count370
 \l__scontents_save_sf_int=\count371
-\l__scontents_save_skip=\skip77
+\l__scontents_save_skip=\skip80
 \l__scontents_foreach_start_int=\count372
 \l__scontents_foreach_step_int=\count373
 ))
@@ -680,8 +686,8 @@ File: lstlang2.sty 2025/11/14 1.11b listings language file
 (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2025/11/14 1.11b listings language file
 )
-\l__codelist_demo_parindent_dim=\dimen264
-\l__codelist_org_parindent_dim=\dimen265
+\l__codelist_demo_parindent_dim=\dimen267
+\l__codelist_org_parindent_dim=\dimen268
 
 (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
@@ -709,27 +715,27 @@ File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \__codelist_demo_coffin=\box118
 \__codelist_demo_label_coffin=\box119
 \__codelist_code_demo_coffin=\box120
-\l__codelist_width_dim=\dimen266
-\l__codelist_offset_dim=\dimen267
-\l__codelist_code_height_dim=\dimen268
-\l__codelist_demo_height_dim=\dimen269
+\l__codelist_width_dim=\dimen269
+\l__codelist_offset_dim=\dimen270
+\l__codelist_code_height_dim=\dimen271
+\l__codelist_demo_height_dim=\dimen272
 )
 \l__codedesc_margin_coffin=\box121
 \l__codedesc_text_coffin=\box122
 \l__codedesc_syntax_coffin=\box123
-\l__codedesc_syntax_wd_dim=\dimen270
-\l__codedesc_margin_wd_dim=\dimen271
+\l__codedesc_syntax_wd_dim=\dimen273
+\l__codedesc_margin_wd_dim=\dimen274
 \l__codedesc_describe_coffin=\box124
-\l__codedesc_describelabel_wd_dim=\dimen272
-\l__codedesc_describelist_wd_dim=\dimen273
-\__codedesc_paradvance_dim=\dimen274
-\l__codedesc_tmpa_dim=\dimen275
-\l__codedesc_tmpb_dim=\dimen276
+\l__codedesc_describelabel_wd_dim=\dimen275
+\l__codedesc_describelist_wd_dim=\dimen276
+\__codedesc_paradvance_dim=\dimen277
+\l__codedesc_tmpa_dim=\dimen278
+\l__codedesc_tmpb_dim=\dimen279
 \l__codedesc_tsremark_coffin=\box125
 \g__codedesc_footnote_int=\count374
 )
 (c:/texlive/texmf-local/tex/latex/package/xmeaning/build/local/xmeaning.sty
-Package: xmeaning 2025-12-18 v0.1.0 Enhanced implementation of the \meaning\ pr
+Package: xmeaning 2026-02-10 v0.2.0 Enhanced implementation of the \meaning\ pr
 imitive.
 \l__xmeaning_pkg_char_math_fam_int=\count375
 \l__xmeaning_pkg_char_math_slot_int=\count376
@@ -737,7 +743,7 @@ imitive.
 \l__xmeaning_pkg_small_variant_position_int=\count378
 \l__xmeaning_pkg_big_variant_family_int=\count379
 \l__xmeaning_pkg_big_variant_position_int=\count380
-\l__xmeaning_pkg_meaning_skip=\skip78
+\l__xmeaning_pkg_meaning_skip=\skip81
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
@@ -769,13 +775,13 @@ LaTeX Font Info:    ... okay on input line 37.
 (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count381
-\scratchdimen=\dimen277
+\scratchdimen=\dimen280
 \scratchbox=\box126
 \nofMPsegments=\count382
 \nofMParguments=\count383
 \everyMPshowfont=\toks33
 \MPscratchCnt=\count384
-\MPscratchDim=\dimen278
+\MPscratchDim=\dimen281
 \MPnumerator=\count385
 \makeMPintoPDFobject=\count386
 \everyMPtoPDFconversion=\toks34
@@ -900,187 +906,199 @@ Package l3doc Warning: A control sequence of the form '...__\l_tmpa_tl' was
 (l3doc)                'xmeaning_pkg'.
 
 
-Overfull \hbox (7.6445pt too wide) in paragraph at lines 675--675
+Overfull \hbox (7.6445pt too wide) in paragraph at lines 682--682
  [][]    \TU/lmtt/m/n/9 description   = {Enhanced implementation of the \string\
 meaning\ primitive.} 
  []
 
 [6]
-Overfull \hbox (130.49466pt too wide) in paragraph at lines 675--675
+Overfull \hbox (130.49466pt too wide) in paragraph at lines 682--682
  [][]  \TU/lmtt/m/n/9 \__xmeaning_pkg_tex_halign:n { \tex_hfil:D##&\c_space_tl=\
 c_space_tl\vbox_top:n{\raggedright##}\tex_cr:D 
  []
 
+
+Overfull \hbox (2.9195pt too wide) in paragraph at lines 682--682
+ [][]    \TU/lmtt/m/n/9 \dim_compare:nNnF { \tex_the:D\tex_fontchardp:D\tex_font
+:D `#1 } = { 0 pt } 
+ []
+
 [7]
-Overfull \hbox (206.09476pt too wide) in paragraph at lines 675--675
+Overfull \hbox (2.9195pt too wide) in paragraph at lines 682--682
+ [][]    \TU/lmtt/m/n/9 \dim_compare:nNnF { \tex_the:D\tex_fontcharic:D\tex_font
+:D `#1 } = { 0 pt } 
+ []
+
+
+Overfull \hbox (206.09476pt too wide) in paragraph at lines 682--682
  [][]        \TU/lmtt/m/n/9 Uppercase~code & \char_value_uccode:n { `#1 }~(\char
 _generate:nn { \char_value_uccode:n { `#1 } } { 11 })\tex_cr:D 
  []
 
 
-Overfull \hbox (206.09476pt too wide) in paragraph at lines 675--675
+Overfull \hbox (206.09476pt too wide) in paragraph at lines 682--682
  [][]        \TU/lmtt/m/n/9 Lowercase~code & \char_value_lccode:n { `#1 }~(\char
 _generate:nn { \char_value_lccode:n { `#1 } } { 11 })\tex_cr:D 
  []
 
 
-Overfull \hbox (87.9696pt too wide) in paragraph at lines 675--675
+Overfull \hbox (87.9696pt too wide) in paragraph at lines 682--682
  [][]          \TU/lmtt/m/n/9 { \exp_args:Ne \tl_item:nn { \int_to_hex:e { \char
 _value_mathcode:n { `#1 } } } { 2 } } 
  []
 
 [8]
-Overfull \hbox (69.06958pt too wide) in paragraph at lines 675--675
+Overfull \hbox (69.06958pt too wide) in paragraph at lines 682--682
  [][]        \TU/lmtt/m/n/9 Small~variant~family:~\int_use:N \l__xmeaning_pkg_sm
 all_variant_family_int \tex_par:D 
  []
 
 
-Overfull \hbox (87.9696pt too wide) in paragraph at lines 675--675
+Overfull \hbox (87.9696pt too wide) in paragraph at lines 682--682
  [][]        \TU/lmtt/m/n/9 Small~variant~position:~\int_use:N \l__xmeaning_pkg_
 small_variant_position_int \tex_par:D 
  []
 
 
-Overfull \hbox (50.16956pt too wide) in paragraph at lines 675--675
+Overfull \hbox (50.16956pt too wide) in paragraph at lines 682--682
  [][]        \TU/lmtt/m/n/9 Big~variant~family:~\int_use:N \l__xmeaning_pkg_big_
 variant_family_int \tex_par:D 
  []
 
 
-Overfull \hbox (17.09451pt too wide) in paragraph at lines 675--675
+Overfull \hbox (17.09451pt too wide) in paragraph at lines 682--682
  [][]        \TU/lmtt/m/n/9 Big~variant~position:~\int_use:N \l__xmeaning_pkg_bi
 g_variant_position_int 
  []
 
-
-Overfull \hbox (12.3695pt too wide) in paragraph at lines 675--675
+[9]
+Overfull \hbox (12.3695pt too wide) in paragraph at lines 682--682
  [][]  \TU/lmtt/m/n/9 \regex_extract_all:neN { \\([a-z]+)(\d+) } { \cs_meaning:c
  { #1 } } \l_tmpa_seq 
  []
 
 
-Overfull \hbox (2.9195pt too wide) in paragraph at lines 675--675
+Overfull \hbox (2.9195pt too wide) in paragraph at lines 682--682
  [][]      \TU/lmtt/m/n/9 { toks   } { \tl_set:Nn \l__xmeaning_pkg_register_type
 _tl { token     } } 
  []
 
-[9]
-Overfull \hbox (2.9195pt too wide) in paragraph at lines 675--675
+
+Overfull \hbox (2.9195pt too wide) in paragraph at lines 682--682
  [][]      \TU/lmtt/m/n/9 { dimen  } { \tl_set:Nn \l__xmeaning_pkg_register_type
 _tl { dimension } } 
  []
 
 
-Overfull \hbox (40.71954pt too wide) in paragraph at lines 675--675
+Overfull \hbox (40.71954pt too wide) in paragraph at lines 682--682
  [][]    \TU/lmtt/m/n/9 { \tl_set:Ne \l__xmeaning_pkg_register_type_tl { \seq_it
 em:Nn \l_tmpa_seq { 2 } } } 
  []
 
 
-Overfull \hbox (130.49466pt too wide) in paragraph at lines 675--675
+Overfull \hbox (130.49466pt too wide) in paragraph at lines 682--682
  [][]  \TU/lmtt/m/n/9 \__xmeaning_pkg_tex_halign:n { \tex_hfil:D##&\c_space_tl=\
 c_space_tl\vbox_top:n{\raggedright##}\tex_cr:D 
  []
 
 
-Overfull \hbox (106.86963pt too wide) in paragraph at lines 675--675
+Overfull \hbox (106.86963pt too wide) in paragraph at lines 682--682
  [][]    \TU/lmtt/m/n/9 Type & \tl_use:N \l__xmeaning_pkg_register_type_tl\ (no.
 ~\seq_item:Nn \l_tmpa_seq { 3 })\tex_cr:D 
  []
 
 
-Overfull \hbox (130.49466pt too wide) in paragraph at lines 675--675
+Overfull \hbox (130.49466pt too wide) in paragraph at lines 682--682
  [][]  \TU/lmtt/m/n/9 \__xmeaning_pkg_tex_halign:n { \tex_hfil:D##&\c_space_tl=\
 c_space_tl\vbox_top:n{\raggedright##}\tex_cr:D 
  []
 
 
-Overfull \hbox (12.3695pt too wide) in paragraph at lines 675--675
+Overfull \hbox (12.3695pt too wide) in paragraph at lines 682--682
  [][]    \TU/lmtt/m/n/9 Variable & \slshape \str_use:N \c_backslash_str \tl_to_s
 tr:n { #1 } \tex_cr:D 
  []
 
 [10]
-Overfull \hbox (50.16956pt too wide) in paragraph at lines 675--675
+Overfull \hbox (50.16956pt too wide) in paragraph at lines 682--682
  [][]    \TU/lmtt/m/n/9 Use & \int_case:nn { \int_eval:n { \tl_count:e { \seq_it
 em:Nn \l_tmpb_seq { 3 } } } } 
  []
 
 
-Overfull \hbox (59.61957pt too wide) in paragraph at lines 675--675
+Overfull \hbox (59.61957pt too wide) in paragraph at lines 682--682
  [][]  \TU/lmtt/m/n/9 \regex_extract_all:neN { \\(math)?char"([0-9A-Z]+) } { \cs
 _meaning:c { #1 } } \l_tmpa_seq 
  []
 
 
-Overfull \hbox (130.49466pt too wide) in paragraph at lines 675--675
+Overfull \hbox (130.49466pt too wide) in paragraph at lines 682--682
  [][]  \TU/lmtt/m/n/9 \__xmeaning_pkg_tex_halign:n { \tex_hfil:D##&\c_space_tl=\
 c_space_tl\vbox_top:n{\raggedright##}\tex_cr:D 
  []
 
 
-Overfull \hbox (130.49466pt too wide) in paragraph at lines 675--675
+Overfull \hbox (130.49466pt too wide) in paragraph at lines 682--682
  [][]  \TU/lmtt/m/n/9 \__xmeaning_pkg_tex_halign:n { \tex_hfil:D##&\c_space_tl=\
 c_space_tl\vbox_top:n{\raggedright##}\tex_cr:D 
  []
 
 
-Overfull \hbox (64.34457pt too wide) in paragraph at lines 675--675
+Overfull \hbox (64.34457pt too wide) in paragraph at lines 682--682
  [][]              \TU/lmtt/m/n/9 { :{2}[NnVvcofexTFwD]_unbraced  } { expl3~argu
 ment~specifier~(unbraced~type) } 
  []
 
 [11]
-Overfull \hbox (21.81952pt too wide) in paragraph at lines 675--675
+Overfull \hbox (21.81952pt too wide) in paragraph at lines 682--682
  [][]      \TU/lmtt/m/n/9 \regex_extract_all:nnNTF { \A(g|l|c)(_{1,2})\w*_([a-z]
 *) } { #1 } \l_tmpb_seq 
  []
 
 
-Overfull \hbox (45.44455pt too wide) in paragraph at lines 675--675
+Overfull \hbox (45.44455pt too wide) in paragraph at lines 682--682
  [][]              \TU/lmtt/m/n/9 { \\(math)?char"([0-9A-Z]+) } { \__xmeaning_pk
 g_chardef_meaning:n { #1 } } 
  []
 
-
-Overfull \hbox (45.44455pt too wide) in paragraph at lines 675--675
+[12]
+Overfull \hbox (45.44455pt too wide) in paragraph at lines 682--682
  [][]        \TU/lmtt/m/n/9 { \exp_args:Ne \__xmeaning_pkg_control_sequence_mean
 ing:n { \cs_to_str:N ##1 } } 
  []
 
-[12]
-Overfull \hbox (26.54453pt too wide) in paragraph at lines 675--675
+
+Overfull \hbox (26.54453pt too wide) in paragraph at lines 682--682
  [][]          \TU/lmtt/m/n/9 \clist_put_right:Ne \l_tmpb_clist { \int_to_Alph:n
  { ####1 } \l_tmpa_tl, } 
  []
 
 
-Overfull \hbox (26.54453pt too wide) in paragraph at lines 675--675
+Overfull \hbox (26.54453pt too wide) in paragraph at lines 682--682
  [][]          \TU/lmtt/m/n/9 \clist_put_right:Ne \l_tmpb_clist { \l_tmpa_tl \in
 t_to_Alph:n { ####1 }, } 
  []
 
 
-Overfull \hbox (40.71954pt too wide) in paragraph at lines 675--675
+Overfull \hbox (40.71954pt too wide) in paragraph at lines 682--682
  [][]        \TU/lmtt/m/n/9 { \clist_put_right:Ne \l_tmpb_clist { \l_tmpa_tl @\i
 nt_to_roman:n { ####1 } } } 
  []
 
-
-Overfull \hbox (73.79459pt too wide) in paragraph at lines 675--675
+[13]
+Overfull \hbox (73.79459pt too wide) in paragraph at lines 682--682
  [][]              \TU/lmtt/m/n/9 \exp_args:NV \tl_range:nnV { \l_tmpa_tl } { \i
 nt_eval:n{ ####1+1 } } \l_tmpa_int 
  []
 
-[13]
-Overfull \hbox (21.81952pt too wide) in paragraph at lines 675--675
+
+Overfull \hbox (21.81952pt too wide) in paragraph at lines 682--682
  [][]            \TU/lmtt/m/n/9 { \exp_args:NV \__xmeaning_pkg_xmeaning_replace_
 a_tokens:n \l_tmpa_tl } 
  []
 
 
-Overfull \hbox (21.81952pt too wide) in paragraph at lines 675--675
+Overfull \hbox (21.81952pt too wide) in paragraph at lines 682--682
  [][]            \TU/lmtt/m/n/9 { \exp_args:NV \__xmeaning_pkg_xmeaning_replace_
 o_tokens:n \l_tmpa_tl } 
  []
@@ -1102,15 +1120,15 @@ Package rerunfilecheck Info: File `xmeaning.hd' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 21546 strings out of 476081
+ 21771 strings out of 476081
  125004,1144653 words of node,token memory allocated
- 1533 words of node memory still in use:
+ 1556 words of node memory still in use:
    17 hlist, 5 vlist, 11 rule, 2 local_par, 6 math, 36 glue, 7 kern, 3 penalty, 
-27 glyph, 48 attribute, 76 glue_spec, 48 attribute_list, 1 write, 14 pdf_colorst
+27 glyph, 50 attribute, 79 glue_spec, 50 attribute_list, 1 write, 14 pdf_colorst
 ack nodes
-   avail lists: 1:2,2:1668,3:2376,4:1669,5:1277,6:119,7:6729,8:11,9:3949,10:23,1
+   avail lists: 1:3,2:1676,3:2129,4:1669,5:1289,6:119,7:6720,8:11,9:3952,10:23,1
 1:389,12:2
- 43074 multiletter control sequences out of 65536+600000
+ 43292 multiletter control sequences out of 65536+600000
  93 fonts using 7207735 bytes
  89i,12n,110p,862b,2308s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans8-oblique.otf><c:/tex
@@ -1133,10 +1151,10 @@ fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2025/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on xmeaning.pdf (14 pages, 152096 bytes).
+Output written on xmeaning.pdf (14 pages, 152296 bytes).
 
-PDF statistics: 736 PDF objects out of 1000 (max. 8388607)
- 659 compressed objects within 7 object streams
- 502 named destinations out of 1000 (max. 131072)
+PDF statistics: 743 PDF objects out of 1000 (max. 8388607)
+ 666 compressed objects within 7 object streams
+ 509 named destinations out of 1000 (max. 131072)
  57 words of extra memory for PDF output out of 10000 (max. 100000000)
 
